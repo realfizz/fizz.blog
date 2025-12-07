@@ -34,7 +34,14 @@ export interface ActivityConfig {
   githubUsername: string;
 }
 
+export interface MetaConfig {
+  title: string;
+  description: string;
+  openGraphImage: string;
+}
+
 export interface SiteConfig {
+  meta: MetaConfig;
   hero: HeroContent;
   socials: SocialLink[];
   projects: ProjectsConfig;
@@ -42,6 +49,11 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
+  meta: {
+    title: "fizz.blog",
+    description: "Fizzy P's thing",
+    openGraphImage: "/opengraph.png",
+  },
   hero: {
     greeting: "Hey It's me",
     name: "Fizz",
