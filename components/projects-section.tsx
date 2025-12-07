@@ -38,7 +38,7 @@ function ProjectCard({ project }: { project: Project }) {
           }}
         />
         <div className="pointer-events-none absolute inset-0 -m-1 border border-dashed border-transparent transition-colors duration-200 group-hover:border-white/60" />
-        <div className="z-10 h-44 min-h-44 overflow-hidden rounded">
+        <div className="z-10 h-64 overflow-hidden rounded">
           <Image
             alt={`${project.title} project`}
             width={1280}

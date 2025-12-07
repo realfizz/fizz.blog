@@ -51,7 +51,7 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   meta: {
     title: "fizz.blog",
-    description: "Fizzy P's thing",
+    description: "15 Year old Designer & Fullstack Developer",
     openGraphImage: "/opengraph.png",
   },
   hero: {
@@ -65,12 +65,12 @@ export const siteConfig: SiteConfig = {
   socials: [
     {
       name: "GitHub",
-      url: "https://github.com/youngfizz",
+      url: "https://github.com/youngfizzler",
       description: "Check out my code",
     },
     {
       name: "Discord",
-      url: "https://discord.gg/youngfizz",
+      url: "http://discord.com/users/1229934153454325843",
       description: "Let's chat",
     },
   ],

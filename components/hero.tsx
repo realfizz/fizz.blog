@@ -45,20 +45,20 @@ export function Hero() {
           <span className="jetbrains-mono text-xs font-light tracking-tight text-muted-light transition-colors duration-200 group-hover:text-white">
             / <span className="text-xxs">@</span>
             {hero.handle}
-            <div className="pt-4">
-              <p className="text-sm">
-                {hero.taglinePrefix}{" "}
-                <span className="font-medium text-white">
-                  {hero.taglineHighlights[0]}
-                </span>{" "}
-                &{" "}
-                <span className="font-medium text-white">
-                  {hero.taglineHighlights[1]}
-                </span>
-              </p>
-            </div>
           </span>
-        </a>
+          </a>
+          <div className="pt-4">
+            <p className="text-sm">
+              {hero.taglinePrefix}{" "}
+              <span className="font-medium text-white">
+                {hero.taglineHighlights[0]}
+              </span>{" "}
+              &{" "}
+              <span className="font-medium text-white">
+                {hero.taglineHighlights[1]}
+              </span>
+            </p>
+          </div>
       </h1>
       <div className="flex items-center gap-2">
         {socials.map((link) => (
