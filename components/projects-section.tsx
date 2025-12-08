@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
-import { siteConfig, type Project } from "@/lib/config";
+import { siteConfig, type Project } from "@/settings/config";
 
 function ProjectCard({ project }: { project: Project }) {
   return (

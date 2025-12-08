@@ -75,7 +75,7 @@ export const siteConfig: SiteConfig = {
     },
   ],
   projects: {
-    eyebrow: "still not sure? Check out my",
+    eyebrow: "Check out my",
     highlight: "Projects",
     items: [
       {
@@ -103,7 +103,7 @@ export const siteConfig: SiteConfig = {
   },
   activity: {
     title: "Fizz's",
-    subtitle: "Activity:",
+    subtitle: "Github Activity:",
     githubUsername: "youngfizzler",
   },
 };

@@ -1,4 +1,4 @@
-import { siteConfig, type SocialLink } from "@/lib/config";
+import { siteConfig, type SocialLink } from "@/settings/config";
 import { WaveIcon } from "@/components/ui/wave-icon";
 import { DiscordIcon } from "@/components/ui/discord-icon";
 import { GitHubIcon } from "@/components/ui/github-icon";

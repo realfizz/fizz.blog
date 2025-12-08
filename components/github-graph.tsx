@@ -8,7 +8,7 @@ import {
   ContributionGraphLegend,
   ContributionGraphTotalCount,
 } from "@/components/kibo-ui/contribution-graph";
-import { siteConfig } from "@/lib/config";
+import { siteConfig } from "@/settings/config";
 import { useEffect, useState } from "react";
 import { subYears, startOfDay } from "date-fns";
 

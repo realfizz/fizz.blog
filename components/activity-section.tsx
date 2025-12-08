@@ -1,5 +1,5 @@
 import GitHubGraph from "@/components/github-graph";
-import { siteConfig } from "@/lib/config";
+import { siteConfig } from "@/settings/config";
 
 export function ActivitySection() {
   const { activity } = siteConfig;
