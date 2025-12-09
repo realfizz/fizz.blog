@@ -54,7 +54,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${dotoFont.variable} ${jetbrainsMonoFont.variable} ${instrumentSansFont.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${dotoFont.variable} ${jetbrainsMonoFont.variable} ${instrumentSansFont.variable} antialiased no-scrollbar`}
       >
         <ThemeProvider
           attribute="class"
