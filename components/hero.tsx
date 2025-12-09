@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { siteConfig, type SocialLink } from "@/settings/config";
+import { ShimmeringText } from "@/components/shimmering-text";
 import { WaveIcon } from "@/components/ui/wave-icon";
 import { DiscordIcon } from "@/components/ui/discord-icon";
 import { GitHubIcon } from "@/components/ui/github-icon";
@@ -53,7 +54,11 @@ export function Hero() {
         >
           <span className="jetbrains-mono text-xs font-light tracking-tight text-muted-light transition-colors duration-200 group-hover:text-white">
             / <span className="text-xxs">@</span>
-            {hero.handle}
+            <ShimmeringText
+              className="inline-flex text-white [--color:currentColor] [--shimmering-color:var(--color-zinc-50)]"
+              duration={1}
+              text={hero.handle}
+            />
           </span>
         </a>
         <div className="basis-full pt-4">
