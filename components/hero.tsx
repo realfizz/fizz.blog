@@ -36,7 +36,7 @@ export function Hero() {
         <span>{hero.greeting}</span>
         <WaveIcon />
       </div>
-      <h1 className="doto-font flex flex-wrap items-center gap-2 text-2xl font-bold">
+      <h1 className="doto-font flex flex-wrap items-center gap-1.5 text-2xl font-bold">
         <Image
           src={hero.country}
           alt="Flag"
@@ -61,7 +61,7 @@ export function Hero() {
             />
           </span>
         </a>
-        <div className="basis-full pt-4">
+        <div className="basis-full">
           <p className="text-sm">
             {hero.taglinePrefix}{" "}
             <span className="font-medium text-white">
