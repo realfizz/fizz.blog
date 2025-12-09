@@ -69,9 +69,9 @@ const GitHubGraph = () => {
           />
         )}
       </ContributionGraphCalendar>
-      <ContributionGraphFooter>
+      <ContributionGraphFooter className="items-center">
         <ContributionGraphTotalCount />
-        <ContributionGraphLegend />
+        <ContributionGraphLegend className="ml-auto" />
       </ContributionGraphFooter>
     </ContributionGraph>
   );

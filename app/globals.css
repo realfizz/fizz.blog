@@ -2,7 +2,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* GitHub contribution graph colors - more visible */
 [data-level="0"] {
   fill: #1a1a1a;
 }
